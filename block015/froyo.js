@@ -1,4 +1,7 @@
-let userFlavors = window.prompt("Enter your flavors");
+let userFlavors = window.prompt(
+  "Enter your flavors",
+  "vanilla,vanilla,vanilla,strawberry,coffee,coffee"
+);
 console.log(userFlavors);
 
 // Split the string of flavors into an array of strings.
